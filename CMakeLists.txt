@@ -160,7 +160,6 @@ else()
         list(APPEND possible_flags
             Wall
             Wextra
-            Wno-deprecated-declarations # auto_ptr is OK for now
             Wno-unused-macros
             Wlogical-op
             Wmissing-declarations
